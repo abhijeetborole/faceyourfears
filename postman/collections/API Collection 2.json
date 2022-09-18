@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "3a11dddf-f899-426e-8b01-093a1fe54c1a",
+		"name": "API Collection 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "900232-3a11dddf-f899-426e-8b01-093a1fe54c1a"
+	},
+	"item": [
+		{
+			"name": "New Folder",
+			"item": [],
+			"id": "f1de11bc-71f1-4f49-965e-938668b14ce6"
+		},
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "3d2f24e0-a289-4b60-ac18-6e034e3d9a6e",
+						"exec": [
+							"saasas"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "87c87251-1969-498c-9f43-46deb5372596",
+						"exec": [
+							"sadsadasd"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"id": "37c2b0e5-dfb6-47c6-a509-da3145f5151b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "saasassa",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "asassaas",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "sdfadsasdadas"
+				},
+				"url": {
+					"raw": "aaaaa?aaa=&=ssss&=d&das=as",
+					"host": [
+						"aaaaa"
+					],
+					"query": [
+						{
+							"key": "aaa",
+							"value": ""
+						},
+						{
+							"key": "",
+							"value": "ssss"
+						},
+						{
+							"key": "",
+							"value": "d"
+						},
+						{
+							"key": "das",
+							"value": "as"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "95a111b7-cd3b-4677-8fbe-7b9a96f056f4",
+					"name": "New Request",
+					"originalRequest": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "saasassa",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "asassaas",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "aaaaa?aaa=&=ssss&=d&das=as",
+							"host": [
+								"aaaaa"
+							],
+							"query": [
+								{
+									"key": "aaa",
+									"value": ""
+								},
+								{
+									"key": "",
+									"value": "ssss"
+								},
+								{
+									"key": "",
+									"value": "d"
+								},
+								{
+									"key": "das",
+									"value": "as"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "New Request",
+			"id": "cb326417-d37d-4039-bc8d-6ce99494e710",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
