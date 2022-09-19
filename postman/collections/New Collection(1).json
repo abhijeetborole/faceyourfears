@@ -19,7 +19,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": ""
+							"raw": "google.com",
+							"host": [
+								"google",
+								"com"
+							]
 						}
 					},
 					"response": [
@@ -33,12 +37,27 @@
 									"raw": ""
 								}
 							},
-							"_postman_previewlanguage": "",
+							"_postman_previewlanguage": "Text",
 							"header": "",
 							"cookie": [],
 							"body": ""
 						}
 					]
+				},
+				{
+					"name": "New Request",
+					"id": "4c46829f-67fc-4c48-ba9a-4e05740797d4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "3d3d2f6d-1d84-44a3-8757-950beabb28df"
@@ -47,8 +66,33 @@
 			"name": "New Folder Copy 7",
 			"item": [
 				{
+					"name": "New Folder",
+					"item": [],
+					"id": "06e78202-e159-4555-961a-071652f3e62c"
+				},
+				{
+					"name": "New Folder",
+					"item": [],
+					"id": "b86bfd72-7ec4-43fc-9c3e-1b891aaed536"
+				},
+				{
 					"name": "New Request",
 					"id": "d6e48e95-aa56-4f66-bf3b-05287e0bc3f9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"id": "16443146-e7a0-4d5f-96ed-642574cddc07",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
