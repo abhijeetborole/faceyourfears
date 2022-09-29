@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "1ec308b2-ad31-4590-9adc-f0e9453f0203",
+		"name": "B",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "900232-1ec308b2-ad31-4590-9adc-f0e9453f0203"
+	},
+	"item": [
+		{
+			"name": "API Folder 1",
+			"item": [
+				{
+					"name": "API Request 1",
+					"id": "ad3e41b4-8752-420f-8a47-47a6390e08cd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "google.com",
+							"host": [
+								"google",
+								"com"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "ec831633-61c1-4cec-bcec-157e9e5d08f8"
+		},
+		{
+			"name": "API Folder 2",
+			"item": [
+				{
+					"name": "API Request 2",
+					"id": "8bc7c767-75a6-4fca-8334-00b3146927a4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "a6430d38-fdf2-4857-b02c-69db679891ea"
+		}
+	]
+}
